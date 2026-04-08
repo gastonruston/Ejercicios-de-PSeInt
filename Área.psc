@@ -1,9 +1,9 @@
-Algoritmo Área_de_un_triángulo
-	Definir Número1, Número2, Área como real
+Algoritmo área_de_un_triángulo
+	Definir Numero1, Numero2, Área Como Real
 	Escribir "Ingresar la medida de la base"
-	Leer Número1
-	Escribir "Ingresar la medida de la altura"
-	Leer Número2
-	Área<-(Número1*Número2)/2
-	Escribir "El área del triángulo es ", Área
+	
+	Leer Base
+	Leer Altura
+	Área<-(Base*Altura)/2
+	Escribir Área
 FinAlgoritmo
